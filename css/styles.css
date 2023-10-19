@@ -172,11 +172,9 @@ letter-spacing: 0.04em;
 background-color: #4D5AE5;
 color:  #FFFFFF; 
 align-items: center;
-margin-left: 636px;
-margin-right: 635px;
+margin: 0 auto;
+display: block;
 margin-bottom:  188px;
-/* margin-left: auto;
-margin-right: auto; */
 }
 
 
@@ -238,6 +236,8 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
+padding-top: 120px;
+margin-bottom: 72px;
 }
 
 .team-list-item {
@@ -250,6 +250,9 @@ font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em; 
 color: #2E2F42;
+padding-top: 32px;
+text-align: center;
+margin-bottom: 8px;
 }
 
 .team-list-position {
@@ -258,6 +261,16 @@ font-weight: 400;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
+padding-bottom: 32px;
+text-align: center;
+}
+
+.team-list{
+display: flex;
+justify-content: space-between;
+padding-bottom: 120px;
+column-gap: 24px;
+flex-wrap: wrap;
 }
 
 /* =============Team styles============== */
