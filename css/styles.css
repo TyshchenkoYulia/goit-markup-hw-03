@@ -46,8 +46,11 @@ button {
     margin: 0 auto;
     padding: 0 15px;
     /* display: flex; */
- 
-   
+}
+
+ .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 body {
@@ -62,6 +65,10 @@ color: #434455;
 .page-header .container {
   display: flex;
   justify-content: space-between;  
+}
+
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .page-nav {
@@ -142,9 +149,13 @@ color: #434455;
 
 
 /* =============Hero styles====================== */
+
 .hero {
 background-color:#2e2f42;
+padding-top: 188px;
+padding-bottom: 188px;
 }
+
 
 .main-title {
 font-size: 56px;
@@ -153,12 +164,10 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff; 
-
 width: 496px;
 flex-wrap: wrap;
 margin-left: auto;
 margin-right: auto;
-padding-top: 188px;
 margin-bottom: 48px;
 
 }
@@ -174,7 +183,7 @@ color:  #FFFFFF;
 align-items: center;
 margin: 0 auto;
 display: block;
-margin-bottom:  188px;
+
 }
 
 
@@ -210,7 +219,7 @@ color: #434455;
 .benefits-list {
     display: flex;
     justify-content: space-between;
-    margin: 120px auto;
+   
     column-gap: 24px;
     height: 104px;
    
@@ -224,6 +233,7 @@ color: #434455;
 /* =============Benefits styles============== */
 
 /* =============Team styles============== */
+
 .team {
 background-color: #F4F4FD;
 }
@@ -236,7 +246,6 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
-padding-top: 120px;
 margin-bottom: 72px;
 }
 
@@ -268,14 +277,20 @@ text-align: center;
 .team-list{
 display: flex;
 justify-content: space-between;
-padding-bottom: 120px;
 column-gap: 24px;
 flex-wrap: wrap;
+width: calc((100%-24*3)/4);
 }
 
+.team-list-avatar {
+    display: block;
+    max-width: 100%;
+    height: auto;  
+}
 /* =============Team styles============== */
 
 /* =============Portfolio styles============== */
+
 
 .portfolio-title {
 font-size: 36px;
@@ -285,6 +300,7 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
+margin-bottom: 72px;
 }
 
 .portfolio-list-product {
@@ -293,6 +309,9 @@ font-weight: 500;
 line-height: 1.20; 
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-top: 32px;
+margin-left: 16px;
+
 }
 
 .portfolio-list-service {
@@ -301,6 +320,28 @@ font-weight: 400;
 line-height: 1.50; 
 letter-spacing: 0.02em;
 color: #434455;
+margin-bottom: 32px;
+margin-left: 16px;
+
+}
+
+.portfolio-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    width: calc((100%-24*2)/3);
+  }
+
+.portfolio-list-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-list-item {
+  border-bottom: 1px solid #E7E9FC;
 }
 
 /* =============Portfolio styles============== */
@@ -310,6 +351,7 @@ color: #434455;
 
 .page-footer {
   background-color: #2e2f42;
+  
 }
 
 .page-footer-logo {
@@ -320,6 +362,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+/* padding-top: 101.5px; */
 }
 
 .footer-logo-span {
@@ -332,4 +375,9 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 }
+
+.page-footer-text {
+    padding-bottom: 100px;
+}
+
 /* =============Footer styles============== */
