@@ -82,10 +82,13 @@ color: #434455;
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
    }
 
+.menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .address-menu {
     display: flex;
     justify-content: space-between;
@@ -199,6 +202,10 @@ color:  #FFFFFF;
 
 
 /* =============Benefits styles================ */
+.benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .benefits-list-title {
 font-size: 20px;
@@ -207,6 +214,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 width: 264px;
+
 margin-bottom: 8px;
 }
 
@@ -221,13 +229,13 @@ color: #434455;
 .benefits-list {
 display: flex;
 justify-content: space-between;
-gap: 24px;
+
 height: 104px;
    
 }
 
 .benefits-list-item {
-    
+gap: 24px;    
 height: auto; 
 width: calc((100% - 72px) / 4);
 }
@@ -237,6 +245,8 @@ width: calc((100% - 72px) / 4);
 
 .team {
 background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .team-title {
@@ -263,7 +273,6 @@ font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em; 
 color: #2E2F42;
-padding-top: 32px;
 text-align: center;
 margin-bottom: 8px;
 }
@@ -274,21 +283,20 @@ font-weight: 400;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: #434455;
-padding-bottom: 32px;
 text-align: center;
 }
 
 .team-list{
 display: flex;
 justify-content: space-between;
-gap: 24px;
-flex-wrap: wrap;
 
+flex-wrap: wrap;
+gap: 24px;
 }
 
 .team-card-content {
-    padding-top: 32px; 
-    padding-bottom: 32px;
+padding-top: 32px; 
+padding-bottom: 32px;
 }
 
 .team-list-avatar {
@@ -300,6 +308,10 @@ flex-wrap: wrap;
 
 /* =============Portfolio styles============== */
 
+.portfolio {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
 
 .portfolio-title {
 font-size: 36px;
@@ -319,8 +331,6 @@ line-height: 1.20;
 letter-spacing: 0.02em;
 color: #2E2F42;
 margin-bottom: 8px;
-
-
 }
 
 .portfolio-list-service {
@@ -334,11 +344,9 @@ color: #434455;
 }
 
 .portfolio-content {
-margin-top: 32px;
-margin-left: 16px;
-margin-bottom: 32px;
+padding: 32px 16px;
 border-top: none;
-border-bottom: 1px solid #E7E9FC;
+border: 1px solid #E7E9FC;
 }
 
 .portfolio-list {
