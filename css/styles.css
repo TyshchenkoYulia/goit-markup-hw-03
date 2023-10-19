@@ -45,13 +45,13 @@ button {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    
-}
+ }   
 
  /* .section {
     padding-top: 120px;
     padding-bottom: 120px;
 } */
+
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -65,17 +65,18 @@ color: #434455;
 .page-header .container {
   display: flex;
   justify-content: space-between;  
+
 }
 
 .page-header {
     border-bottom: 1px solid #E7E9FC;
-    
+    column-gap: 24px;
 }
 
 .page-nav {
     display: flex;
     align-items: center;
-    column-gap: 24px;
+    
  }
 
 .menu {
