@@ -351,7 +351,8 @@ margin-left: 16px;
 
 .page-footer {
   background-color: #2e2f42;
-  
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 
 .page-footer-logo {
@@ -362,7 +363,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-/* padding-top: 101.5px; */
+margin-bottom: 17.5px;
 }
 
 .footer-logo-span {
@@ -374,10 +375,9 @@ font-weight: 400;
 line-height: 1.50; 
 letter-spacing: 0.02em;
 color: #F4F4FD;
+width: 264px;
+flex-wrap: wrap;
 }
 
-.page-footer-text {
-    padding-bottom: 100px;
-}
 
 /* =============Footer styles============== */
